@@ -1,0 +1,11 @@
+bootstrap.*
+build/
+classic.json*
+ext/
+modern.json*
+resources/sass/.sass-cache/
+resources/.arch-internal-preview.css
+.arch-internal-preview.css
+.sencha
+sencha-error-*.log
+sass/example
