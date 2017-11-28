@@ -2,13 +2,12 @@ Ext.define('openFlair.store.News', {
     extend: 'Ext.data.Store',
     alias: 'store.news',
     model: 'openFlair.model.News',
-    autoLoad: true,
     proxy: {
         type: 'rest',
         url: 'http://www.open-flair.de/api/news',
         reader: {
             type: 'json',
-            //TODO: prüfen und abändern, damit man im Store die converter nicht braucht.
+            //TODO: prüfen und abändern, damit man im Store die converter nicht braucht. Für die anderen Stores auch.
             rootProperty: 'blog_post'
         }
     },

@@ -2,7 +2,7 @@ Ext.define('openFlair.model.News', {
     extend: 'Ext.data.Model',
     fields: [{
         name: 'created_at',
-        type: 'string',
+        type: 'date',
         convert: function (value, record) {
             return record.data.blog_post.created_at;
         }
@@ -14,7 +14,7 @@ Ext.define('openFlair.model.News', {
         }
     }, {
         name: 'updated_at',
-        type: 'string',
+        type: 'date',
         convert: function (value, record) {
             return record.data.blog_post.updated_at;
         }
@@ -34,11 +34,12 @@ Ext.define('openFlair.model.News', {
         name: 'id',
         type: 'int',
         convert: function (value, record) {
+            //FIXME: Id zeigt : "openFlair.model.News-1"
             return record.data.blog_post.id;
         },
     }, {
         name: 'published_at',
-        type: 'string',
+        type: 'date',
         convert: function (value, record) {
             return record.data.blog_post.published_at;
         }

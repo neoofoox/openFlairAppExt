@@ -5,7 +5,7 @@ Ext.define('openFlair.view.main.Main', {
         'openFlair.view.main.MainController', 'openFlair.view.news.News', 
         'openFlair.view.kuenstler.Kuenstler', 'openFlair.view.faq.Faq', 
     ],
-    tabPosition: 'left',
+    tabBarPosition: 'left',
     items: [{
         title: 'News',
         xtype: 'news'
@@ -17,18 +17,5 @@ Ext.define('openFlair.view.main.Main', {
     }, {
         title: 'FAQ',
         xtype: 'faq'
-    }],
-    listeners: {
-        beforetabchange: function(tabs, newTab, oldTab) {
-            console.log(newTab);
-            console.log('tabchange');
-        },
-        tabchange: function(tabs, newTab, oldTab) {
-            console.log(newTab);
-            console.log('tabchange');
-        },
-        render: function(tab){
-            console.log('render');
-        }
-    }
+    }]
 });

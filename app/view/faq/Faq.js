@@ -11,12 +11,15 @@ Ext.define('openFlair.view.faq.Faq', {
     },
     columns: [{
         text: 'ID',
-        dataIndex: 'id'
+        dataIndex: 'id',
+        flex: 1
     }, {
         text: 'Frage',
-        dataIndex: 'question'
+        dataIndex: 'question', 
+        flex: 1
     }, {
         text: 'Antwort',
-        dataIndex: 'answer'
+        dataIndex: 'answer',
+        flex: 1
     }]
 });
