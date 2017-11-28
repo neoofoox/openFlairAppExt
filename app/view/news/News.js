@@ -4,8 +4,7 @@ Ext.define('openFlair.view.news.News', {
     controller: 'news',
     scrollable: true,
     layout: {
-        type: 'vbox',
-        align: 'start'
+        type: 'float'
     },
     listeners: {
         initialize: 'onBeforeshow'
