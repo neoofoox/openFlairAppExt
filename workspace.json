@@ -9,10 +9,6 @@
      *          "ext": {
      *              "path": "ext",
      *              "version": "n.n.n.n"
-     *          },
-     *          "extnew": {
-     *              "path": "extnew",
-     *              "version": "n.n.n.n"
      *          }
      *      }
      *
@@ -22,9 +18,9 @@
      */
     "frameworks": {        "ext": {
             "path":"ext",
-            "package":"ext@6.0.0.640",
-            "version":"6.0.0.640"
+            "version":"6.2.0.981"
         }
+        
 
     },
 

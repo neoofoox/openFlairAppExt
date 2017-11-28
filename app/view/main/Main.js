@@ -2,17 +2,20 @@ Ext.define('openFlair.view.main.Main', {
     extend: 'Ext.tab.Panel',
     controller: 'main',
     requires: [
-        'openFlair.view.main.MainController', 
+        'openFlair.view.main.MainController', 'openFlair.view.news.News', 
+        'openFlair.view.kuenstler.Kuenstler', 'openFlair.view.faq.Faq', 
     ],
+    tabBarPosition: 'left',
     items: [{
-        title: 'Home',
-    }, {
         title: 'News',
+        xtype: 'news'
     }, {
-        title: 'Artists'
+        title: 'Artists',
+        xtype: 'kuenstler'
     }, {
         title: 'Programm'
     }, {
-        title: 'FAQ'
+        title: 'FAQ',
+        xtype: 'faq'
     }]
 });

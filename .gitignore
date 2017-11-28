@@ -10,5 +10,9 @@ resources/.arch-internal-preview.css
 sencha-error-*.log
 sass/example
 
+jsonSamples/
+
 # Mac
 .DS-Store
+.DS_Store
+
