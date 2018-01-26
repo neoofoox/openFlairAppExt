@@ -5,6 +5,7 @@ Ext.define('openFlair.view.main.Main', {
         'openFlair.view.main.MainController', 'openFlair.view.news.News', 
         'openFlair.view.kuenstler.Kuenstler', 'openFlair.view.faq.Faq', 
     ],
+    autoDestroy: true,
     tabBarPosition: 'left',
     items: [{
         title: 'News',

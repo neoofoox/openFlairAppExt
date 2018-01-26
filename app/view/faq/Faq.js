@@ -1,25 +1,19 @@
 Ext.define('openFlair.view.faq.Faq', {
-    extend: 'Ext.grid.Grid',
+    extend: 'Ext.Panel',
     xtype: 'faq',
 
-    requires: [
-        'Ext.grid.Grid',
-    ],
-    title: 'Faq',
-    store: {
-        type: 'faq'
+    controller: 'faq',
+    scrollable: true,
+    layout: {
+        // type: 'accordion',
+        type: 'vbox',
+        align: 'start',
+        // titleCollapse: false,
+        // animate: true,
+        // activeOnTop: true
     },
-    columns: [{
-        text: 'ID',
-        dataIndex: 'id',
-        flex: 1
-    }, {
-        text: 'Frage',
-        dataIndex: 'question', 
-        flex: 1
-    }, {
-        text: 'Antwort',
-        dataIndex: 'answer',
-        flex: 1
-    }]
+    listeners: {
+        initialize: 'onBeforeshow'
+        
+    },
 });

@@ -3,6 +3,10 @@ Ext.define('openFlair.view.pageelements.ArtistCardController', {
     alias: 'controller.artistCard',
 
     onFavorite: function(artistId){
-        //TODO: save in local DB.
+        //TODO: save in local
+    },
+
+    onBeforeshow: function(container){
+       console.log(container);
     }
 });

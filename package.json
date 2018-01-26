@@ -1,0 +1,26 @@
+{
+  "name": "openflairappext",
+  "version": "1.0.0",
+  "description": "ExtJs 6.5 App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neoofoox/openFlairAppExt.git"
+  },
+  "keywords": [
+    "extjs",
+    "js"
+  ],
+  "author": "dkiesel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neoofoox/openFlairAppExt/issues"
+  },
+  "homepage": "https://github.com/neoofoox/openFlairAppExt#readme",
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
