@@ -1,18 +1,21 @@
-bootstrap.*
+#Folders
 build/
-classic.json*
 ext/
-modern.json*
-resources/sass/.sass-cache/
-resources/.arch-internal-preview.css
-.arch-internal-preview.css
-
-sencha-error-*.log
-sass/example
-
 jsonSamples/
+packages/remote/material-icons/
+resources/sass/.sass-cache/
+sass/example/
+
+
+#Files
+.arch-internal-preview.css
+bootstrap.*
+classic.json*
+modern.json*
+resources/.arch-internal-preview.css
+sencha-error-*.log
+
 
 # Mac
 .DS-Store
 .DS_Store
-
